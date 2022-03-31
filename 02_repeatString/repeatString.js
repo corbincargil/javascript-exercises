@@ -1,4 +1,18 @@
-const repeatString = function() {
+const repeatString = function(string, num) {
+    result = '';
+    if (num < 0) {
+        return 'ERROR';
+    } else if (num === 0) {
+        return '';  
+    } else {
+        for (let i = 0; i < num; i++) {
+            result += string;
+            
+            
+        }
+        return result;
+        
+    }
 
 };
 
